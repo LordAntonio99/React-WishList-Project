@@ -1,0 +1,26 @@
+{
+  "name": "wishlist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel ./src/index.html",
+    "format": "prettier --write \"*.{js,jsx,json,css}\""
+  },
+  "author": "Antonio Cintora",
+  "license": "ISC",
+  "dependencies": {
+    "classnames": "^2.3.1",
+    "prettier": "^2.5.1",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "prettier": {
+    "semi": true
+  }
+}
